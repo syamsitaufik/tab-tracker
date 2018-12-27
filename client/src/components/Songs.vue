@@ -34,10 +34,11 @@
                <v-btn
                 class="cyan"
                 dark
-                :to="{ name: 'song',
-                params:{
-                  songId: song.id
-                } }">
+                :to="{
+                  name: 'song',
+                  params:{
+                    songId: song.id}
+                }">
                 View
               </v-btn>
             </v-flex>
